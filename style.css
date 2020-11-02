@@ -16,6 +16,18 @@ i,a{
     align-items: center;
 }
 
+/* icon turning */
+.icon{
+    color:rgb(235, 101, 12);
+    transition:transform 1s ease-in-out;
+    }
+
+.icon:hover{
+   color:#fff;
+    transform:rotate(180deg);
+    transition:transform 1s ease-in-out;
+    }   
+
 /* VIDEO BACKGROUND */
 .center{
     font-size: 6rem;
@@ -23,7 +35,7 @@ i,a{
     -webkit-text-fill-color:transparent; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(235, 226, 226);}
-    
+
 @media(max-width:450px){
     .center{font-size: 3rem;}
 }
